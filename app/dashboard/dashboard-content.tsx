@@ -72,7 +72,7 @@ const DashboardContent = React.memo(function DashboardContent({ user, userData }
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Welcome Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-2">Welcome back, {user.name || user.email}!</h2>
+          <h2 className="text-2xl font-bold mb-2">Welcome to your dashboard!</h2>
           <p className="text-muted-foreground">
             Here's how you're doing today. Remember, every small step counts toward your wellbeing.
           </p>
